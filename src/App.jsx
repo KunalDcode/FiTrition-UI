@@ -162,7 +162,7 @@ export default function App() {
         )}
 
         {/* Output */}
-        {loading && <div style={styles.loading}>⏳ Agent thinking...</div>}
+        {loading && <div style={styles.loading}>⏳ Agent thinking... usually takes 5-10 seconds.</div>}
         {output && (
           <div style={styles.output}>
             <ReactMarkdown>{output}</ReactMarkdown>
